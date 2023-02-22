@@ -1,136 +1,890 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="2" ignored="2" total="7" passed="1" failed="2" skipped="0">
+<testng-results ignored="8" total="20" passed="0" failed="0" skipped="12">
   <reporter-output>
-    <line>
-      <![CDATA[Validating --->actual :The only plan you need.***Expected : The only plan you need.<br>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (fa5749dc30ab3261faecc0e93388be2b)] -> xpath: //a[text()='Careers']]<---->has been clicked<br>]]>
-    </line>
-    <line>
-      <![CDATA[Validating --->actual :Corporate culture***Expected : Corporate culture<br>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (fa5749dc30ab3261faecc0e93388be2b)] -> xpath: (//span[@class='btn_text'])[2]]<---->has been clicked<br>]]>
-    </line>
-    <line>
-      <![CDATA[Test3<br>]]>
-    </line>
-    <line>
-      <![CDATA[*** Screen shot has been captured successfully ***<br>]]>
-    </line>
-    <line>
-      <![CDATA[Retry Test<br>]]>
-    </line>
-    <line>
-      <![CDATA[Retry Test<br>]]>
-    </line>
-    <line>
-      <![CDATA[Retry Test<br>]]>
-    </line>
-    <line>
-      <![CDATA[*** Screen shot has been captured successfully ***<br>]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-02-21T01:14:40 EST" name="Suite" finished-at="2023-02-21T01:15:45 EST" duration-ms="65182">
+  <suite started-at="2023-02-21T20:34:08 EST" name="Suite" finished-at="2023-02-21T20:34:08 EST" duration-ms="360">
     <groups>
       <group name="non-func">
-        <method signature="CareerPageTest.failedTestScenarios()[pri:2, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" name="failedTestScenarios" class="tdd.AmeriHealth.Career.CareerPageTest"/>
-        <method signature="CareerPageTest.testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" name="testRetry" class="tdd.AmeriHealth.Career.CareerPageTest"/>
+        <method signature="CareerPageTest.failedTestScenarios()[pri:2, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" name="failedTestScenarios" class="tdd.AmeriHealth.Career.CareerPageTest"/>
+        <method signature="CareerPageTest.testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" name="testRetry" class="tdd.AmeriHealth.Career.CareerPageTest"/>
+        <method signature="CareerPageTest.failedTestScenarios()[pri:2, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" name="failedTestScenarios" class="tdd.AmeriHealth.Career.CareerPageTest"/>
+        <method signature="CareerPageTest.testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" name="testRetry" class="tdd.AmeriHealth.Career.CareerPageTest"/>
+        <method signature="CareerPageTest.failedTestScenarios()[pri:2, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" name="failedTestScenarios" class="tdd.AmeriHealth.Career.CareerPageTest"/>
+        <method signature="CareerPageTest.testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" name="testRetry" class="tdd.AmeriHealth.Career.CareerPageTest"/>
+        <method signature="CareerPageTest.failedTestScenarios()[pri:2, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" name="failedTestScenarios" class="tdd.AmeriHealth.Career.CareerPageTest"/>
+        <method signature="CareerPageTest.testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" name="testRetry" class="tdd.AmeriHealth.Career.CareerPageTest"/>
       </group> <!-- non-func -->
       <group name="career">
-        <method signature="CareerPageTest.failedTestScenarios()[pri:2, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" name="failedTestScenarios" class="tdd.AmeriHealth.Career.CareerPageTest"/>
-        <method signature="CareerPageTest.testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" name="testRetry" class="tdd.AmeriHealth.Career.CareerPageTest"/>
+        <method signature="CareerPageTest.failedTestScenarios()[pri:2, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" name="failedTestScenarios" class="tdd.AmeriHealth.Career.CareerPageTest"/>
+        <method signature="CareerPageTest.testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" name="testRetry" class="tdd.AmeriHealth.Career.CareerPageTest"/>
+        <method signature="CareerPageTest.failedTestScenarios()[pri:2, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" name="failedTestScenarios" class="tdd.AmeriHealth.Career.CareerPageTest"/>
+        <method signature="CareerPageTest.testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" name="testRetry" class="tdd.AmeriHealth.Career.CareerPageTest"/>
+        <method signature="CareerPageTest.failedTestScenarios()[pri:2, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" name="failedTestScenarios" class="tdd.AmeriHealth.Career.CareerPageTest"/>
+        <method signature="CareerPageTest.testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" name="testRetry" class="tdd.AmeriHealth.Career.CareerPageTest"/>
+        <method signature="CareerPageTest.failedTestScenarios()[pri:2, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" name="failedTestScenarios" class="tdd.AmeriHealth.Career.CareerPageTest"/>
+        <method signature="CareerPageTest.testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" name="testRetry" class="tdd.AmeriHealth.Career.CareerPageTest"/>
       </group> <!-- career -->
     </groups>
-    <test started-at="2023-02-21T01:14:40 EST" name="Test" finished-at="2023-02-21T01:15:45 EST" duration-ms="65182">
+    <test started-at="2023-02-21T20:34:08 EST" name="chrome" finished-at="2023-02-21T20:34:08 EST" duration-ms="131">
       <class name="tdd.AmeriHealth.Career.CareerPageTest">
-        <test-method is-config="true" signature="initExtentReport()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:14:39 EST" name="initExtentReport" finished-at="2023-02-21T01:14:40 EST" duration-ms="403" status="PASS">
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" started-at="2023-02-21T20:34:08 EST" name="setUpDriver" finished-at="2023-02-21T20:34:08 EST" duration-ms="4" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null
+at tdd.AmeriHealth.base.BaseClass.setUpDriver(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" started-at="2023-02-21T20:34:08 EST" name="startExtentReport" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method signature="careerPageTest()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" started-at="2023-02-21T20:34:08 EST" name="careerPageTest" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null
+at tdd.AmeriHealth.base.BaseClass.setUpDriver(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careerPageTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" started-at="2023-02-21T20:34:08 EST" name="getResult" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearup()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" started-at="2023-02-21T20:34:08 EST" name="tearup" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" started-at="2023-02-21T20:34:08 EST" name="setUpDriver" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" started-at="2023-02-21T20:34:08 EST" name="startExtentReport" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method signature="failedTestScenarios()[pri:2, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" started-at="2023-02-21T20:34:08 EST" name="failedTestScenarios" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null
+at tdd.AmeriHealth.base.BaseClass.setUpDriver(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTestScenarios -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" started-at="2023-02-21T20:34:08 EST" name="getResult" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearup()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" started-at="2023-02-21T20:34:08 EST" name="tearup" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" started-at="2023-02-21T20:34:08 EST" name="setUpDriver" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" started-at="2023-02-21T20:34:08 EST" name="startExtentReport" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method signature="testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" started-at="2023-02-21T20:34:08 EST" name="testRetry" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null
+at tdd.AmeriHealth.base.BaseClass.setUpDriver(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRetry -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" started-at="2023-02-21T20:34:08 EST" name="getResult" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearup()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@53fe15ff]" started-at="2023-02-21T20:34:08 EST" name="tearup" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+      </class> <!-- tdd.AmeriHealth.Career.CareerPageTest -->
+    </test> <!-- chrome -->
+    <test started-at="2023-02-21T20:34:08 EST" name="firefox" finished-at="2023-02-21T20:34:08 EST" duration-ms="42">
+      <class name="tdd.AmeriHealth.Career.CareerPageTest">
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" started-at="2023-02-21T20:34:08 EST" name="setUpDriver" finished-at="2023-02-21T20:34:08 EST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null
+at tdd.AmeriHealth.base.BaseClass.setUpDriver(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" started-at="2023-02-21T20:34:08 EST" name="startExtentReport" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method signature="careerPageTest()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" started-at="2023-02-21T20:34:08 EST" name="careerPageTest" finished-at="2023-02-21T20:34:08 EST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null
+at tdd.AmeriHealth.base.BaseClass.setUpDriver(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careerPageTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" started-at="2023-02-21T20:34:08 EST" name="getResult" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearup()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" started-at="2023-02-21T20:34:08 EST" name="tearup" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" started-at="2023-02-21T20:34:08 EST" name="setUpDriver" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" started-at="2023-02-21T20:34:08 EST" name="startExtentReport" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method signature="failedTestScenarios()[pri:2, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" started-at="2023-02-21T20:34:08 EST" name="failedTestScenarios" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null
+at tdd.AmeriHealth.base.BaseClass.setUpDriver(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTestScenarios -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" started-at="2023-02-21T20:34:08 EST" name="getResult" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearup()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" started-at="2023-02-21T20:34:08 EST" name="tearup" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" started-at="2023-02-21T20:34:08 EST" name="setUpDriver" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" started-at="2023-02-21T20:34:08 EST" name="startExtentReport" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method signature="testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" started-at="2023-02-21T20:34:08 EST" name="testRetry" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null
+at tdd.AmeriHealth.base.BaseClass.setUpDriver(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRetry -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" started-at="2023-02-21T20:34:08 EST" name="getResult" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearup()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@72035809]" started-at="2023-02-21T20:34:08 EST" name="tearup" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+      </class> <!-- tdd.AmeriHealth.Career.CareerPageTest -->
+    </test> <!-- firefox -->
+    <test started-at="2023-02-21T20:34:08 EST" name="edge" finished-at="2023-02-21T20:34:08 EST" duration-ms="43">
+      <class name="tdd.AmeriHealth.Career.CareerPageTest">
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" started-at="2023-02-21T20:34:08 EST" name="setUpDriver" finished-at="2023-02-21T20:34:08 EST" duration-ms="3" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null
+at tdd.AmeriHealth.base.BaseClass.setUpDriver(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" started-at="2023-02-21T20:34:08 EST" name="startExtentReport" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method signature="careerPageTest()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" started-at="2023-02-21T20:34:08 EST" name="careerPageTest" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null
+at tdd.AmeriHealth.base.BaseClass.setUpDriver(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careerPageTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" started-at="2023-02-21T20:34:08 EST" name="getResult" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearup()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" started-at="2023-02-21T20:34:08 EST" name="tearup" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" started-at="2023-02-21T20:34:08 EST" name="setUpDriver" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" started-at="2023-02-21T20:34:08 EST" name="startExtentReport" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method signature="failedTestScenarios()[pri:2, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" started-at="2023-02-21T20:34:08 EST" name="failedTestScenarios" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null
+at tdd.AmeriHealth.base.BaseClass.setUpDriver(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTestScenarios -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" started-at="2023-02-21T20:34:08 EST" name="getResult" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearup()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" started-at="2023-02-21T20:34:08 EST" name="tearup" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" started-at="2023-02-21T20:34:08 EST" name="setUpDriver" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" started-at="2023-02-21T20:34:08 EST" name="startExtentReport" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method signature="testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" started-at="2023-02-21T20:34:08 EST" name="testRetry" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null
+at tdd.AmeriHealth.base.BaseClass.setUpDriver(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRetry -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" started-at="2023-02-21T20:34:08 EST" name="getResult" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearup()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@606e4010]" started-at="2023-02-21T20:34:08 EST" name="tearup" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+      </class> <!-- tdd.AmeriHealth.Career.CareerPageTest -->
+    </test> <!-- edge -->
+    <test started-at="2023-02-21T20:34:08 EST" name="safari" finished-at="2023-02-21T20:34:08 EST" duration-ms="36">
+      <class name="tdd.AmeriHealth.Career.CareerPageTest">
+        <test-method is-config="true" signature="initExtentReport()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" started-at="2023-02-21T20:34:07 EST" name="initExtentReport" finished-at="2023-02-21T20:34:08 EST" duration-ms="453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initExtentReport -->
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:14:40 EST" name="setUpDriver" finished-at="2023-02-21T01:14:46 EST" duration-ms="6827" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:14:46 EST" name="startExtentReport" finished-at="2023-02-21T01:14:46 EST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" started-at="2023-02-21T20:34:08 EST" name="setUpDriver" finished-at="2023-02-21T20:34:08 EST" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tdd.AmeriHealth.Career.CareerPageTest.careerPageTest() throws java.lang.InterruptedException]]>
+                <![CDATA[safari]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null
+at tdd.AmeriHealth.base.BaseClass.setUpDriver(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" started-at="2023-02-21T20:34:08 EST" name="startExtentReport" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtentReport -->
-        <test-method signature="careerPageTest()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:14:46 EST" name="careerPageTest" finished-at="2023-02-21T01:15:19 EST" duration-ms="32855" status="PASS">
+        <test-method signature="careerPageTest()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" started-at="2023-02-21T20:34:08 EST" name="careerPageTest" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null
+at tdd.AmeriHealth.base.BaseClass.setUpDriver(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
-            <line>
-              <![CDATA[Validating --->actual :The only plan you need.***Expected : The only plan you need.<br>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (fa5749dc30ab3261faecc0e93388be2b)] -> xpath: //a[text()='Careers']]<---->has been clicked<br>]]>
-            </line>
-            <line>
-              <![CDATA[Validating --->actual :Corporate culture***Expected : Corporate culture<br>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (fa5749dc30ab3261faecc0e93388be2b)] -> xpath: (//span[@class='btn_text'])[2]]<---->has been clicked<br>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- careerPageTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:19 EST" name="getResult" finished-at="2023-02-21T01:15:19 EST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=careerPageTest status=SUCCESS method=CareerPageTest.careerPageTest()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2] output=Validating --->actual :The only plan you need.***Expected : The only plan you need.<br>]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void tdd.AmeriHealth.Career.CareerPageTest.careerPageTest() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" started-at="2023-02-21T20:34:08 EST" name="getResult" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearup()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:19 EST" name="tearup" finished-at="2023-02-21T01:15:20 EST" duration-ms="783" status="PASS">
+        <test-method is-config="true" signature="tearup()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" started-at="2023-02-21T20:34:08 EST" name="tearup" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearup -->
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:20 EST" name="setUpDriver" finished-at="2023-02-21T01:15:25 EST" duration-ms="5280" status="PASS">
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" started-at="2023-02-21T20:34:08 EST" name="setUpDriver" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:25 EST" name="startExtentReport" finished-at="2023-02-21T01:15:25 EST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tdd.AmeriHealth.Career.CareerPageTest.failedTestScenarios()]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" started-at="2023-02-21T20:34:08 EST" name="startExtentReport" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtentReport -->
-        <test-method signature="failedTestScenarios()[pri:2, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:25 EST" name="failedTestScenarios" finished-at="2023-02-21T01:15:25 EST" duration-ms="11" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="failedTestScenarios()[pri:2, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" started-at="2023-02-21T20:34:08 EST" name="failedTestScenarios" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[null]]>
+              <![CDATA[Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.fail(Assert.java:115)
-at tdd.AmeriHealth.Career.CareerPageTest.failedTestScenarios(CareerPageTest.java:41)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null
+at tdd.AmeriHealth.base.BaseClass.setUpDriver(BaseClass.java:63)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
@@ -155,67 +909,44 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
-            <line>
-              <![CDATA[Test3<br>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- failedTestScenarios -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:25 EST" name="getResult" finished-at="2023-02-21T01:15:27 EST" duration-ms="1176" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=failedTestScenarios status=FAILURE method=CareerPageTest.failedTestScenarios()[pri:2, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2] output=Test3<br>]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void tdd.AmeriHealth.Career.CareerPageTest.failedTestScenarios()]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" started-at="2023-02-21T20:34:08 EST" name="getResult" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
           <reporter-output>
-            <line>
-              <![CDATA[*** Screen shot has been captured successfully ***<br>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearup()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:27 EST" name="tearup" finished-at="2023-02-21T01:15:27 EST" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="tearup()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" started-at="2023-02-21T20:34:08 EST" name="tearup" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearup -->
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:27 EST" name="setUpDriver" finished-at="2023-02-21T01:15:32 EST" duration-ms="4808" status="PASS">
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" started-at="2023-02-21T20:34:08 EST" name="setUpDriver" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:32 EST" name="startExtentReport" finished-at="2023-02-21T01:15:32 EST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tdd.AmeriHealth.Career.CareerPageTest.testRetry()]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" started-at="2023-02-21T20:34:08 EST" name="startExtentReport" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtentReport -->
-        <test-method retried="true" signature="testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:32 EST" name="testRetry" finished-at="2023-02-21T01:15:32 EST" duration-ms="9" status="SKIP">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" started-at="2023-02-21T20:34:08 EST" name="testRetry" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[null]]>
+              <![CDATA[Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.fail(Assert.java:115)
-at tdd.AmeriHealth.Career.CareerPageTest.testRetry(CareerPageTest.java:47)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "tdd.AmeriHealth.Utils.ReadProperties.getProperty(String)" because "this.envV" is null
+at tdd.AmeriHealth.base.BaseClass.setUpDriver(BaseClass.java:63)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
@@ -240,205 +971,23 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
-            <line>
-              <![CDATA[Retry Test<br>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- testRetry -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:32 EST" name="getResult" finished-at="2023-02-21T01:15:32 EST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testRetry status=SKIP method=CareerPageTest.testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2] output=Retry Test<br>]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void tdd.AmeriHealth.Career.CareerPageTest.testRetry()]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" started-at="2023-02-21T20:34:08 EST" name="getResult" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearup()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:32 EST" name="tearup" finished-at="2023-02-21T01:15:32 EST" duration-ms="268" status="PASS">
+        <test-method is-config="true" signature="tearup()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" started-at="2023-02-21T20:34:08 EST" name="tearup" finished-at="2023-02-21T20:34:08 EST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearup -->
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:32 EST" name="setUpDriver" finished-at="2023-02-21T01:15:38 EST" duration-ms="6371" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:38 EST" name="startExtentReport" finished-at="2023-02-21T01:15:38 EST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tdd.AmeriHealth.Career.CareerPageTest.testRetry()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtentReport -->
-        <test-method retried="true" signature="testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:38 EST" name="testRetry" finished-at="2023-02-21T01:15:38 EST" duration-ms="7" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.fail(Assert.java:115)
-at tdd.AmeriHealth.Career.CareerPageTest.testRetry(CareerPageTest.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[Retry Test<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testRetry -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:38 EST" name="getResult" finished-at="2023-02-21T01:15:38 EST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testRetry status=SKIP method=CareerPageTest.testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2] output=Retry Test<br>]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void tdd.AmeriHealth.Career.CareerPageTest.testRetry()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearup()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:38 EST" name="tearup" finished-at="2023-02-21T01:15:39 EST" duration-ms="334" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearup -->
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:39 EST" name="setUpDriver" finished-at="2023-02-21T01:15:43 EST" duration-ms="4702" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:43 EST" name="startExtentReport" finished-at="2023-02-21T01:15:43 EST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tdd.AmeriHealth.Career.CareerPageTest.testRetry()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtentReport -->
-        <test-method signature="testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:43 EST" name="testRetry" finished-at="2023-02-21T01:15:43 EST" duration-ms="3" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.fail(Assert.java:115)
-at tdd.AmeriHealth.Career.CareerPageTest.testRetry(CareerPageTest.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[Retry Test<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testRetry -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:43 EST" name="getResult" finished-at="2023-02-21T01:15:44 EST" duration-ms="1105" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testRetry status=FAILURE method=CareerPageTest.testRetry()[pri:3, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2] output=Retry Test<br>]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void tdd.AmeriHealth.Career.CareerPageTest.testRetry()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[*** Screen shot has been captured successfully ***<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearup()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:44 EST" name="tearup" finished-at="2023-02-21T01:15:45 EST" duration-ms="250" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearup -->
-        <test-method is-config="true" signature="closeReport()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@6d4d66d2]" started-at="2023-02-21T01:15:45 EST" name="closeReport" finished-at="2023-02-21T01:15:45 EST" duration-ms="614" status="PASS">
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:tdd.AmeriHealth.Career.CareerPageTest@5e2c3d18]" started-at="2023-02-21T20:34:08 EST" name="closeReport" finished-at="2023-02-21T20:34:09 EST" duration-ms="466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReport -->
       </class> <!-- tdd.AmeriHealth.Career.CareerPageTest -->
-    </test> <!-- Test -->
+    </test> <!-- safari -->
   </suite> <!-- Suite -->
 </testng-results>

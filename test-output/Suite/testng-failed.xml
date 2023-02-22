@@ -1,7 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tdd.AmeriHealth.Career.CareerPageTest">
+        <methods>
+          <include name="testRetry"/>
+          <include name="closeReport"/>
+          <include name="startExtentReport"/>
+          <include name="setUpDriver"/>
+          <include name="tearup"/>
+          <include name="careerPageTest"/>
+          <include name="initExtentReport"/>
+          <include name="getResult"/>
+          <include name="failedTestScenarios"/>
+        </methods>
+      </class> <!-- tdd.AmeriHealth.Career.CareerPageTest -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+  <test thread-count="5" name="firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tdd.AmeriHealth.Career.CareerPageTest">
+        <methods>
+          <include name="testRetry"/>
+          <include name="closeReport"/>
+          <include name="startExtentReport"/>
+          <include name="setUpDriver"/>
+          <include name="tearup"/>
+          <include name="careerPageTest"/>
+          <include name="initExtentReport"/>
+          <include name="getResult"/>
+          <include name="failedTestScenarios"/>
+        </methods>
+      </class> <!-- tdd.AmeriHealth.Career.CareerPageTest -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+  <test thread-count="5" name="edge(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="tdd.AmeriHealth.Career.CareerPageTest">
+        <methods>
+          <include name="closeReport"/>
+          <include name="testRetry"/>
+          <include name="startExtentReport"/>
+          <include name="setUpDriver"/>
+          <include name="tearup"/>
+          <include name="careerPageTest"/>
+          <include name="initExtentReport"/>
+          <include name="getResult"/>
+          <include name="failedTestScenarios"/>
+        </methods>
+      </class> <!-- tdd.AmeriHealth.Career.CareerPageTest -->
+    </classes>
+  </test> <!-- edge(failed) -->
+  <test thread-count="5" name="safari(failed)">
+    <parameter name="browser" value="safari"/>
     <classes>
       <class name="tdd.AmeriHealth.Career.CareerPageTest">
         <methods>
@@ -10,11 +65,12 @@
           <include name="startExtentReport"/>
           <include name="tearup"/>
           <include name="setUpDriver"/>
+          <include name="careerPageTest"/>
           <include name="initExtentReport"/>
           <include name="getResult"/>
           <include name="failedTestScenarios"/>
         </methods>
       </class> <!-- tdd.AmeriHealth.Career.CareerPageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- safari(failed) -->
 </suite> <!-- Failed suite [Suite] -->

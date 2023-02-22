@@ -6,7 +6,7 @@ import java.util.Properties;
 
 public class ReadProperties {
 
-	Properties properties;
+	 Properties properties;
 
 	public ReadProperties() {
 		loadProperties();
@@ -40,5 +40,4 @@ public class ReadProperties {
 			return 0;
 		}
 	}
-
 }

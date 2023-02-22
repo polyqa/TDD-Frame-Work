@@ -1,6 +1,8 @@
 package tdd.AmeriHealth.base;
 
 import java.lang.reflect.Method;
+import java.time.Duration;
+
 import static tdd.AmeriHealth.Utils.IConstant.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,6 +14,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
+
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -26,7 +30,7 @@ import tdd.AmeriHealth.Objects.CareerPage;
 
 public class BaseClass extends ExtentListener {
 	protected WebDriver driver;
-	ReadProperties envV;
+	ReadProperties envV= new ReadProperties();;
 	protected LandingPage landingPage;
 	protected GetStartedPage getStartedPage;
 	protected CareerPage careerPage;
@@ -48,38 +52,35 @@ public class BaseClass extends ExtentListener {
 		extentReports.flush();
 	}
 
-	// @Parameters("browser")
+	@Parameters("browser")
 	@BeforeMethod
-	public void setUpDriver() {
+	public void setUpDriver(String browser) {
 		// System.setProperty("webdriver.chrome.driver", "
 		// C:\\Users\\User\\eclipse-workspace\\tdd.AmeriHealth\\
 		// C:\\Users\\User\\Downloads\\chromedriver_win32.exe") ;
 		// driver = new ChromeDriver();
 		// String browser = envV.getProperty(BROWSER);
-		// String url = envV.getProperty(URL);
-		// long pageLoadwait =envV.getNumProperty(PAGELOAD_WAIT);
-		initDriver("chrome");
-		driver.get("https://www.amerihealthnj.com/html/index.html");
+		 String url = envV.getProperty(URL);
+		 long pageLoadwait =envV.getNumProperty(PAGELOAD_WAIT);
+		initDriver(browser);
+		driver.get(url);
 		driver.manage().window().maximize();
-		// driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(pageLoadwait));
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(pageLoadwait));
 		initClasses(driver);
 
 	}
 
 	public void initClasses(WebDriver driver) {
-		envV = new ReadProperties();
 		landingPage = new LandingPage(driver);
 		getStartedPage = new GetStartedPage(driver);
 		careerPage = new CareerPage(driver);
 	}
 
 	private void initDriver(String driverName) {
-
 		switch (driverName) {
 		case CHROME:
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-
 			break;
 
 		case FIREFOX:
