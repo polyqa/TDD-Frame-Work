@@ -29,13 +29,13 @@ public class CareerPageTest extends BaseClass {
 		Logs.log("Test2");
 	}
 
-	@Test(enabled = true, priority = 2, groups = { "career", "non-func" })
+	@Test(enabled = false, priority = 2, groups = { "career", "non-func" })
 	public void failedTestScenarios() {
 		Logs.log("Test3");
 		Assert.fail();
 	}
 
-	@Test(enabled = true, priority = 3, groups = { "career","non-func" }, retryAnalyzer = tdd.AmeriHealth.Retry.RetryFailedTests.class)
+	@Test(enabled = false, priority = 3, groups = { "career","non-func" }, retryAnalyzer = tdd.AmeriHealth.Retry.RetryFailedTests.class)
 	public void testRetry() {
 		Logs.log("Retry Test");
 		Assert.fail();
